@@ -1,6 +1,9 @@
 package stringManipulation;
 
-    /**
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
+/**
      * Jaden Smith, the son of Will Smith, is the star of films such as The Karate Kid (2010) and After Earth (2013).
      * Jaden is also known for some of his philosophy that he delivers via Twitter.
      * When writing on Twitter, he is known for almost always capitalizing every word.
@@ -19,9 +22,12 @@ package stringManipulation;
 public class JadenCasingStrings {
     public static void main(String[] args) {
 
-        String result = toJadenCase("toJadenCase doesn't return a valide JadenCase String! try again please :)");
-
+        String result = toJadenCase("toJadenCase doesn't return a valid JadenCase String! try again please :)");
         System.out.println(result);
+
+        String result2 = toJadenCase2("toJadenCase doesn't return a valid JadenCase String! try again please :)");
+        System.out.println(result2);
+
 
     }
 
@@ -52,6 +58,19 @@ public class JadenCasingStrings {
         return sb.toString().trim();
     }
 
+
+    public static String toJadenCase2(String phrase) {
+        // TODO put your code below this comment
+
+        if(phrase == null || phrase.isEmpty() || phrase.isBlank()){
+            return null;
+        }
+        return Arrays.stream(phrase.split(" "))
+                .map(each -> String.valueOf(each.charAt(0)).toUpperCase() + each.substring(1))
+                .collect(Collectors.joining(" "));
+
+
+    }
 
 
 }

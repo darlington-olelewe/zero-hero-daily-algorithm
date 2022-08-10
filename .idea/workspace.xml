@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/multiplesAndFactors/MultiplesOf3Or5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="Chisom's sol">
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/FourSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/FourSeven.java" afterDir="false" />
+>>>>>>> d66cd5360495f429eaaec6c7e1c1048fb4691a16
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,20 @@
       <recent name="hashMapsSolutions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TribonacciTest.sampleTests">
+  <component name="RunManager" selected="Application.exceptions.FourSeven">
+    <configuration name="JadenCasingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringManipulation.JadenCasingStrings" />
+      <module name="zero-hero-daily-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stringManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tribonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xbonacciQuestions.Tribonacci" />
       <module name="zero-hero-daily-algorithm" />
@@ -80,22 +98,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FourSevenTest.exampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zero-hero-daily-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="switchCases" />
-      <option name="MAIN_CLASS_NAME" value="exceptions.FourSevenTest" />
-      <option name="METHOD_NAME" value="exampleTests" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exceptions.FourSeven" />
+        <item itemvalue="Application.JadenCasingStrings" />
         <item itemvalue="JUnit.TribonacciTest.sampleTests" />
         <item itemvalue="JUnit.TribonacciTest" />
         <item itemvalue="Application.Tribonacci" />
-        <item itemvalue="Application.exceptions.FourSeven" />
-        <item itemvalue="JUnit.FourSevenTest.exampleTests" />
       </list>
     </recent_temporary>
   </component>
@@ -149,8 +151,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660127120185</updated>
+<<<<<<< HEAD
       <workItem from="1660127122086" duration="11758000" />
+=======
+      <workItem from="1660127122086" duration="9594000" />
+      <workItem from="1660144946518" duration="832000" />
+>>>>>>> d66cd5360495f429eaaec6c7e1c1048fb4691a16
     </task>
+    <task id="LOCAL-00001" summary="Chisom's sol">
+      <created>1660145450309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660145450309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,5 +181,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Chisom's sol" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chisom's sol" />
   </component>
 </project>
