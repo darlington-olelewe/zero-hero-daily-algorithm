@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/JadenCasingStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashMapsSolutions/CountingDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hashMapsSolutions/CountingDuplicatesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,17 +40,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="JadenCasingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringManipulation.JadenCasingStrings" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hashMapsSolutions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CountingDuplicatesTest">
+    <configuration name="hashMapsSolutions.CountingDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashMapsSolutions.CountingDuplicates" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringManipulation.*" />
+          <option name="PATTERN" value="hashMapsSolutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,9 +69,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stringManipulation.JadenCasingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringManipulation.JadenCasingStrings" />
+      <module name="zero-hero-daily-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashMapsSolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountingDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zero-hero-daily-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashMapsSolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hashMapsSolutions" />
+      <option name="MAIN_CLASS_NAME" value="hashMapsSolutions.CountingDuplicatesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zero-hero-daily-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashMapsSolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hashMapsSolutions" />
+      <option name="MAIN_CLASS_NAME" value="hashMapsSolutions.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JadenCasingStrings" />
+        <item itemvalue="JUnit.CountingDuplicatesTest" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.hashMapsSolutions.CountingDuplicates" />
+        <item itemvalue="Application.stringManipulation.JadenCasingStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -70,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660127120185</updated>
-      <workItem from="1660127122086" duration="2780000" />
+      <workItem from="1660127122086" duration="4766000" />
     </task>
     <servers />
   </component>
