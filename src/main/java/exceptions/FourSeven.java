@@ -36,4 +36,24 @@ public class FourSeven {
         return 0;
 
     }
+
+    public static int fourSeven2(int n){
+        // Your Code Here
+        while(n == 4){
+            return 7;
+        }
+        while(n == 7){
+            return 4;
+        }
+        return 0;
+    }
+
+
+    public static int fourSeven3(int n){
+        // Your Code Here
+        Map<Integer,Integer> maps = new HashMap<>();
+        maps.put(7,4);
+        maps.put(4,7);
+        return maps.getOrDefault(n,0);
+    }
 }
