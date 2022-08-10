@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/switchCases/FourSeven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/switchCases/FourSevenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xbonacciQuestions/Tribonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xbonacciQuestions/TribonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,17 +53,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="xbonacciQuestions" />
       <recent name="switchCases" />
       <recent name="hashMapsSolutions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.switchCases.FourSeven">
-    <configuration name="switchCases.FourSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="switchCases.FourSeven" />
+  <component name="RunManager" selected="JUnit.TribonacciTest.sampleTests">
+    <configuration name="Tribonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xbonacciQuestions.Tribonacci" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="switchCases.*" />
+          <option name="PATTERN" value="xbonacciQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,32 +72,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="exceptions.FourSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.FourSeven" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashMapsSolutions.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hashMapsSolutions" />
-      <option name="MAIN_CLASS_NAME" value="hashMapsSolutions.CountingDuplicatesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FourSevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zero-hero-daily-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="switchCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="switchCases" />
-      <option name="MAIN_CLASS_NAME" value="switchCases.FourSevenTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,40 +89,56 @@
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="switchCases.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="switchCases" />
-      <option name="MAIN_CLASS_NAME" value="switchCases.FourSevenTest" />
+      <option name="MAIN_CLASS_NAME" value="exceptions.FourSevenTest" />
       <option name="METHOD_NAME" value="exampleTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TribonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashMapsSolutions.*" />
+          <option name="PATTERN" value="xbonacciQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hashMapsSolutions" />
-      <option name="MAIN_CLASS_NAME" value="hashMapsSolutions.SolutionTest" />
+      <option name="PACKAGE_NAME" value="xbonacciQuestions" />
+      <option name="MAIN_CLASS_NAME" value="xbonacciQuestions.TribonacciTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TribonacciTest.sampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zero-hero-daily-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xbonacciQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xbonacciQuestions" />
+      <option name="MAIN_CLASS_NAME" value="xbonacciQuestions.TribonacciTest" />
+      <option name="METHOD_NAME" value="sampleTests" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.switchCases.FourSeven" />
+        <item itemvalue="JUnit.TribonacciTest.sampleTests" />
+        <item itemvalue="JUnit.TribonacciTest" />
+        <item itemvalue="Application.Tribonacci" />
+        <item itemvalue="Application.exceptions.FourSeven" />
         <item itemvalue="JUnit.FourSevenTest.exampleTests" />
-        <item itemvalue="JUnit.FourSevenTest" />
-        <item itemvalue="JUnit.CountingDuplicatesTest" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660127120185</updated>
-      <workItem from="1660127122086" duration="6927000" />
+      <workItem from="1660127122086" duration="9594000" />
     </task>
     <servers />
   </component>
