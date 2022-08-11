@@ -21,8 +21,10 @@ public class Tribonacci {
 
     public static void main(String[] args) {
         double[] result = tribonacci(new double[]{1,1,1}, 10);
+        double[] result2 = tribonacci(new double[]{1,1,1}, 10);
 
         System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(result2));
     }
 
     public static  double[] tribonacci(double[] s, int n) {
@@ -51,5 +53,19 @@ public class Tribonacci {
         return result;
     }
 
+    public double[] tribonacci2(double[] s, int n) {
+        // hackonacci me
+        if(n == 0) return new double[]{};
+        double[] result = new double[n];
+
+        for(int i = 0; i < n; i++){
+            if(i < 3){
+                result[i] = s[i];
+            }else{
+                result[i] = result[i-1] + result[i -2] + result[i-3];
+            }
+        }
+        return result;
+    }
 
 }
