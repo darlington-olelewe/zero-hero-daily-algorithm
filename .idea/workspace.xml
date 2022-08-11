@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multiplesAndFactors/MultiplesOf3Or5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ScrabbleScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ShortestWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stringManipulation/ShortestWordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/FourSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/FourSeven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xbonacciQuestions/Tribonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xbonacciQuestions/Tribonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringManipulation/ShortestWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ShortestWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +57,26 @@
       <recent name="switchCases" />
       <recent name="hashMapsSolutions" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stringManipulation" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.exceptions.FourSeven">
-    <configuration name="JadenCasingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringManipulation.JadenCasingStrings" />
+  <component name="RunManager" selected="JUnit.ShortestWordTest.findShort">
+    <configuration name="ScrabbleScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringManipulation.ScrabbleScore" />
+      <module name="zero-hero-daily-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stringManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringManipulation.ShortestWord" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
@@ -101,32 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TribonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShortestWordTest.findShort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xbonacciQuestions.*" />
+          <option name="PATTERN" value="stringManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xbonacciQuestions" />
-      <option name="MAIN_CLASS_NAME" value="xbonacciQuestions.TribonacciTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TribonacciTest.sampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zero-hero-daily-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xbonacciQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xbonacciQuestions" />
-      <option name="MAIN_CLASS_NAME" value="xbonacciQuestions.TribonacciTest" />
-      <option name="METHOD_NAME" value="sampleTests" />
+      <option name="PACKAGE_NAME" value="stringManipulation" />
+      <option name="MAIN_CLASS_NAME" value="stringManipulation.ShortestWordTest" />
+      <option name="METHOD_NAME" value="findShort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.exceptions.FourSeven" />
-        <item itemvalue="Application.JadenCasingStrings" />
-        <item itemvalue="JUnit.TribonacciTest.sampleTests" />
-        <item itemvalue="JUnit.TribonacciTest" />
+        <item itemvalue="JUnit.ShortestWordTest.findShort" />
+        <item itemvalue="Application.ShortestWord" />
         <item itemvalue="Application.Tribonacci" />
+        <item itemvalue="Application.ScrabbleScore" />
+        <item itemvalue="Application.exceptions.FourSeven" />
       </list>
     </recent_temporary>
   </component>
