@@ -1,5 +1,7 @@
 package stringManipulation;
 
+import java.util.Arrays;
+
 public class ShortestWord {
 
     /**
@@ -11,6 +13,8 @@ public class ShortestWord {
     public static void main(String[] args) {
     String s = "bitcoin take over the world maybe who knows perhaps";
         System.out.println(findShort(s));
+
+        System.out.println(findShort2(s));
     }
     public static int findShort(String s) {
 
@@ -20,6 +24,12 @@ public class ShortestWord {
             shortest = Math.min(shortest,word.length());
         }
         return shortest;
+    }
+
+
+    public static int findShort2(String s){
+        return Arrays.stream(s.split(" ")).reduce((a,b)-> a.length() < b.length() ? a : b).orElse("").length();
+
     }
 
 
