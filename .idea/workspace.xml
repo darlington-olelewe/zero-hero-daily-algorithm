@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/multiplesAndFactors/MultiplesOf3Or5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ScrabbleScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ShortestWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-    <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="Chisom's sol">
       <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/FourSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/FourSeven.java" afterDir="false" />
->>>>>>> d66cd5360495f429eaaec6c7e1c1048fb4691a16
+      <change beforePath="$PROJECT_DIR$/src/main/java/xbonacciQuestions/Tribonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xbonacciQuestions/Tribonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,12 +150,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660127120185</updated>
-<<<<<<< HEAD
       <workItem from="1660127122086" duration="11758000" />
-=======
       <workItem from="1660127122086" duration="9594000" />
       <workItem from="1660144946518" duration="832000" />
->>>>>>> d66cd5360495f429eaaec6c7e1c1048fb4691a16
     </task>
     <task id="LOCAL-00001" summary="Chisom's sol">
       <created>1660145450309</created>
