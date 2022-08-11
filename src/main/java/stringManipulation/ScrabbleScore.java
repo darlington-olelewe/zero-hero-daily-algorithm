@@ -1,5 +1,9 @@
 package stringManipulation;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 public class ScrabbleScore {
 
     /**
@@ -40,9 +44,12 @@ public class ScrabbleScore {
 
     public static void main(String[] args) {
     String word = "cabbage";
-    String word2 = "ca bba g  e";
+    String word2 = "QmZuqUljbcsoL";
         System.out.println(scrabbleScore(word));
+        System.out.println(scrabbleScores(word));
         System.out.println(scrabbleScore(word2));
+        System.out.println(scrabbleScores(word2));
+
     }
 
     public static int scrabbleScore(String word) {
@@ -75,4 +82,22 @@ public class ScrabbleScore {
         }return 1;
 
     }
+
+
+
+    public static int scrabbleScores(String word){
+        if(word.isEmpty() || word.isBlank()) return 0;
+
+        String[] words = word.toUpperCase().split("");
+        Map<Character,Integer> p = new HashMap<>();
+        p.put('A',1); p.put(' ',0);p.put('D',2); p.put('G',2);p.put('B',3); p.put('C',3);p.put('M',3);p.put('P',3);p.put('Q',10);
+        p.put('F',4); p.put('H',4);p.put('V',4); p.put('W',4);p.put('Y',4); p.put('K',5);p.put('J',8);p.put('X',8);p.put('Z',10);
+
+        return Arrays.stream(words).map(e->p.getOrDefault(e.toCharArray()[0],1)).reduce(Integer::sum).orElse(0);
+    }
+
+
+
+
+
 }

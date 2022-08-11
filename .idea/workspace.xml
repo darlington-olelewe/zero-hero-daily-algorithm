@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringManipulation/ShortestWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ShortestWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringManipulation/ScrabbleScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ScrabbleScore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortestWord">
+  <component name="RunManager" selected="Application.ScrabbleScore">
     <configuration name="ScrabbleScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stringManipulation.ScrabbleScore" />
       <module name="zero-hero-daily-algorithm" />
@@ -131,10 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScrabbleScore" />
         <item itemvalue="Application.ShortestWord" />
         <item itemvalue="JUnit.ShortestWordTest.findShort" />
         <item itemvalue="Application.Tribonacci" />
-        <item itemvalue="Application.ScrabbleScore" />
         <item itemvalue="Application.exceptions.FourSeven" />
       </list>
     </recent_temporary>
