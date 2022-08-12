@@ -25,6 +25,9 @@ import java.util.Arrays;
  * b = [132, 14641, 20736, 361, 25921, 361, 20736, 361]
  *
  * comp(c,d) returns false because in b 132 is not the square of any number of a
+ *
+ * a or b might be nil or null or None or nothing (except in C++, COBOL, Crystal, D, Dart, Elixir, Fortran, F#, Haskell, Nim,
+ * OCaml, Pascal, Perl, PowerShell, Prolog, PureScript, R, Racket, Rust, Shell, Swift).
  */
 
 
