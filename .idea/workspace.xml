@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/FindTheMissingLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multiplesAndFactors/FindTheNextPerfectSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
