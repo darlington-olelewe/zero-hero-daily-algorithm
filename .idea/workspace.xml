@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multiplesAndFactors/FindTheNextPerfectSquare.java" afterDir="false" />
+    <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="Chisom's sol">
+      <change afterPath="$PROJECT_DIR$/src/main/java/googleKickStart/EvenDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,6 +150,7 @@
       <workItem from="1660127122086" duration="11758000" />
       <workItem from="1660127122086" duration="9594000" />
       <workItem from="1660144946518" duration="832000" />
+      <workItem from="1660376898012" duration="1159000" />
     </task>
     <task id="LOCAL-00001" summary="Chisom's sol">
       <created>1660145450309</created>
