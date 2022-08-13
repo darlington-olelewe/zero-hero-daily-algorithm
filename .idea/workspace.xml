@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="Chisom's sol">
-      <change afterPath="$PROJECT_DIR$/src/main/java/googleKickStart/EvenDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ArrhGrabscrab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayManipulation/AreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayManipulation/AreSame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringManipulation/FindTheMissingLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/FindTheMissingLetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
@@ -63,13 +61,26 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindTheMissingLetter">
+  <component name="RunManager" selected="Application.ArrhGrabscrab">
     <configuration name="AreSame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayManipulation.AreSame" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrayManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrhGrabscrab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringManipulation.ArrhGrabscrab" />
+      <module name="zero-hero-daily-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stringManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,29 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestWordTest.findShort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zero-hero-daily-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stringManipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stringManipulation" />
-      <option name="MAIN_CLASS_NAME" value="stringManipulation.ShortestWordTest" />
-      <option name="METHOD_NAME" value="findShort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrhGrabscrab" />
         <item itemvalue="Application.FindTheMissingLetter" />
         <item itemvalue="Application.AreSame" />
         <item itemvalue="Application.ScrabbleScore" />
         <item itemvalue="Application.ShortestWord" />
-        <item itemvalue="JUnit.ShortestWordTest.findShort" />
       </list>
     </recent_temporary>
   </component>
@@ -183,5 +178,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chisom's sol" />
     <option name="LAST_COMMIT_MESSAGE" value="Chisom's sol" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
