@@ -30,8 +30,13 @@ public class FindTheMissingLetter {
 
     public static void main(String[] args) {
         char[] letters = new char[]{'a','b','c','d','f'};
+        char[] letters2 = new char[]{'O','Q','R','S'};
+
 
         System.out.println(findMissingLetter(letters));
+        System.out.println(findMissingLetter2(letters));
+        System.out.println(findMissingLetter(letters2));
+        System.out.println(findMissingLetter2(letters2));
     }
 
     public static char findMissingLetter(char[] array) {
@@ -49,5 +54,18 @@ public class FindTheMissingLetter {
         return (char)found;
     }
 
+
+    public static char findMissingLetter2(char[] array) {
+        String alpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+       String subString = alpha.substring(alpha.indexOf(array[0]), alpha.indexOf(array[array.length-1])+1);
+       char missingLetter = ' ';
+       for(int i = 0; i < subString.length(); i++){
+           if(subString.charAt(i) != array[i]){
+               missingLetter = subString.charAt(i);
+               break;
+           }
+       }
+        return missingLetter;
+    }
 
 }
