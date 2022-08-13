@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collectionManipulation/TheSupermarketQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collectionManipulation/TakeATenMinutesWalk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TheSupermarketQueue">
+  <component name="RunManager" selected="Application.TakeATenMinutesWalk">
     <configuration name="AreSame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayManipulation.AreSame" />
       <module name="zero-hero-daily-algorithm" />
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrabbleScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringManipulation.ScrabbleScore" />
+    <configuration name="TakeATenMinutesWalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionManipulation.TakeATenMinutesWalk" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringManipulation.*" />
+          <option name="PATTERN" value="collectionManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TakeATenMinutesWalk" />
         <item itemvalue="Application.TheSupermarketQueue" />
         <item itemvalue="Application.ArrhGrabscrab" />
         <item itemvalue="Application.FindTheMissingLetter" />
         <item itemvalue="Application.AreSame" />
-        <item itemvalue="Application.ScrabbleScore" />
       </list>
     </recent_temporary>
   </component>
