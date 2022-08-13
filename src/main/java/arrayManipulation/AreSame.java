@@ -1,6 +1,9 @@
 package arrayManipulation;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
  *Given two arrays a and b write a function comp(a, b) (orcompSame(a, b)) that checks whether the two arrays have the "same" elements,
  * with the same multiplicities (the multiplicity of a member is the number of times it appears).
@@ -39,6 +42,7 @@ public class AreSame {
        int[] b = new int[]{121, 14641, 20736, 361, 25921, 361, 20736, 361};
 
         System.out.println(comp(a,b));
+        System.out.println(comp2(a,b));
 
         // -- For Invalid --
 
@@ -46,6 +50,7 @@ public class AreSame {
         int[] d = new int[] {132, 14641, 20736, 361, 25921, 361, 20736, 361};
 
         System.out.println(comp(c,d));
+        System.out.println(comp2(c,d));
 
     }
 
@@ -60,5 +65,17 @@ public class AreSame {
         }
 
         return true;
+    }
+
+    public static boolean comp2(int[] a, int[] b) {
+        if(a == null || b == null) return false;
+        if(a.length != b.length) return false;
+        List<Integer> list = Arrays.stream(b).boxed().collect(Collectors.toList());
+        for(int i = 0; i< a.length; i++){
+            if(list.contains(a[i] * a[i])){
+                list.remove(list.indexOf(a[i] * a[i]));
+            }
+        }
+        return list.size() == 0;
     }
 }

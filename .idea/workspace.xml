@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="Chisom's sol">
       <change afterPath="$PROJECT_DIR$/src/main/java/googleKickStart/EvenDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayManipulation/AreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayManipulation/AreSame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringManipulation/FindTheMissingLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/FindTheMissingLetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +154,7 @@
       <workItem from="1660127122086" duration="9594000" />
       <workItem from="1660144946518" duration="832000" />
       <workItem from="1660376898012" duration="1159000" />
+      <workItem from="1660366326952" duration="6545000" />
     </task>
     <task id="LOCAL-00001" summary="Chisom's sol">
       <created>1660145450309</created>
