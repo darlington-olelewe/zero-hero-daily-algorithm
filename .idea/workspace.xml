@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithematic/BouncingBalls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collectionManipulation/FindTheParityOutlier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collectionManipulation/FindTheParityOutlier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithematic/BouncingBalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithematic/BouncingBalls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +61,13 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindTheParityOutlier">
-    <configuration name="ArrhGrabscrab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringManipulation.ArrhGrabscrab" />
+  <component name="RunManager" selected="Application.BouncingBalls">
+    <configuration name="BouncingBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithematic.BouncingBalls" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="googleKickStart.*" />
+          <option name="PATTERN" value="arithematic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BouncingBalls" />
         <item itemvalue="Application.FindTheParityOutlier" />
         <item itemvalue="Application.TakeATenMinutesWalk" />
         <item itemvalue="Application.FindTheNextPerfectSquare" />
         <item itemvalue="Application.TheSupermarketQueue" />
-        <item itemvalue="Application.ArrhGrabscrab" />
       </list>
     </recent_temporary>
   </component>
