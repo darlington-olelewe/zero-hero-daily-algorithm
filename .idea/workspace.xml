@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithematic/BouncingBalls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/collectionManipulation/FindTheParityOutlier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collectionManipulation/FindTheParityOutlier.java" afterDir="false" />
     </list>
@@ -61,7 +62,7 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindTheNextPerfectSquare">
+  <component name="RunManager" selected="Application.FindTheParityOutlier">
     <configuration name="ArrhGrabscrab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stringManipulation.ArrhGrabscrab" />
       <module name="zero-hero-daily-algorithm" />
@@ -75,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheMissingLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringManipulation.FindTheMissingLetter" />
+    <configuration name="FindTheNextPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiplesAndFactors.FindTheNextPerfectSquare" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringManipulation.*" />
+          <option name="PATTERN" value="multiplesAndFactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheNextPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiplesAndFactors.FindTheNextPerfectSquare" />
+    <configuration name="FindTheParityOutlier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionManipulation.FindTheParityOutlier" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multiplesAndFactors.*" />
+          <option name="PATTERN" value="collectionManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheParityOutlier" />
         <item itemvalue="Application.TakeATenMinutesWalk" />
         <item itemvalue="Application.FindTheNextPerfectSquare" />
         <item itemvalue="Application.TheSupermarketQueue" />
         <item itemvalue="Application.ArrhGrabscrab" />
-        <item itemvalue="Application.TakeATenMinutesWalk" />
-        <item itemvalue="Application.FindTheMissingLetter" />
       </list>
     </recent_temporary>
   </component>

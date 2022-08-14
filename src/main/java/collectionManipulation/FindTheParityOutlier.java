@@ -19,6 +19,11 @@ import java.util.Map;
 
 public class FindTheParityOutlier {
 
+    public static void main(String[] args) {
+        System.out.println(find(new int[]{2, 4, 0, 100, 4, 11, 2602, 36})); //11
+        System.out.println(find(new int[]{160, 3, 1719, 19, 11, 13, -21})); //106
+    }
+
     static int find(int[] integers){
 
         if(determineDataSet(integers)){
