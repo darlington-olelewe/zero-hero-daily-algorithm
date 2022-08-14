@@ -26,9 +26,11 @@ public class ArrhGrabscrab {
         List<String> result = grabscrab("oob", List.of("bob","baobab"));
         List<String> result2 = grabscrab("ainstuomn", List.of("mountains", "hills", "mesa"));
         List<String> result3 = grabscrab("ortsp", List.of("parrot","sport","ports", "matey"));
+        List<String> result4 = grabscrab2("ortsp", List.of("parrot","sport","ports", "matey"));
         System.out.println(result);
         System.out.println(result2);
         System.out.println(result3);
+        System.out.println(result4);
 
     }
 
@@ -42,5 +44,23 @@ public class ArrhGrabscrab {
             if(temp.contains(expected))possibilites.add(words.get(i));
         }
         return possibilites.size() > 0 ? possibilites : new ArrayList<String>();
+    }
+
+    public static List<String> grabscrab2(String s, List<String> words){
+        List<String> match = new ArrayList<>();
+        char[] schar = s.toCharArray();
+        Arrays.sort(schar);
+
+        for(int i = 0; i < words.size(); i++) {
+            if ((words.get(i).length()) == s.length()) {
+                char[] newchar = words.get(i).toCharArray();
+                Arrays.sort(newchar);
+                if (Arrays.equals(schar, newchar)) {
+                    System.out.println(words.get(i).length());
+                    match.add(words.get(i));
+                }
+            }
+        }
+        return match;
     }
 }

@@ -1,6 +1,7 @@
 package collectionManipulation;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -35,7 +36,9 @@ public class TheSupermarketQueue {
         System.out.println(solveSuperMarketQueue(new int[] { 2, 2, 3, 3, 4, 4 }, 2));//9
         System.out.println(solveSuperMarketQueue(new int[] { 2, 3,10 }, 2));//12
         System.out.println(solveSuperMarketQueue(new int[] { 5,3,4 }, 1));//12
+        System.out.println(solveSuperMarketQueue2(new int[] { 5,3,4 }, 1));//12
         System.out.println(solveSuperMarketQueue(new int[] { 10,2,3,3 }, 2)); //10
+        System.out.println(solveSuperMarketQueue2(new int[] { 10,2,3,3 }, 2)); //10
     }
 
 
@@ -67,5 +70,19 @@ public class TheSupermarketQueue {
         }
         queue.set(minIndex, queue.get(minIndex) + customer);
 
+    }
+
+
+    public static int solveSuperMarketQueue2(int[] customers, int n) {
+        //n = number of queues
+        int[] total = new int[n];
+        //loop through customers, add values to first index of total
+        //then sort, this makes sure that the smallest value is at index 0 for n>1
+        //then return the largest value
+        for(int i = 0; i < customers.length; i++){
+            total[0] += customers[i];
+            Arrays.sort(total);
+        }
+        return total[n-1];
     }
 }

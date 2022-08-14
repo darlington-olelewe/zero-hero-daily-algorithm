@@ -7,6 +7,8 @@
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/googleKickStart/EvenDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/googleKickStart/EvenDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collectionManipulation/TheSupermarketQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collectionManipulation/TheSupermarketQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringManipulation/ArrhGrabscrab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ArrhGrabscrab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +77,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
     <configuration name="EvenDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="googleKickStart.EvenDigits" />
+  </configuration>
+  <component name="RunManager" selected="Application.FindTheNextPerfectSquare">
+    <configuration name="ArrhGrabscrab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringManipulation.ArrhGrabscrab" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
@@ -94,6 +101,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stringManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheNextPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiplesAndFactors.FindTheNextPerfectSquare" />
+      <module name="zero-hero-daily-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiplesAndFactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,8 +151,10 @@
       <list>
         <item itemvalue="Application.EvenDigits" />
         <item itemvalue="Application.TakeATenMinutesWalk" />
+        <item itemvalue="Application.FindTheNextPerfectSquare" />
         <item itemvalue="Application.TheSupermarketQueue" />
         <item itemvalue="Application.ArrhGrabscrab" />
+        <item itemvalue="Application.TakeATenMinutesWalk" />
         <item itemvalue="Application.FindTheMissingLetter" />
       </list>
     </recent_temporary>
@@ -150,6 +172,7 @@
       <workItem from="1660144946518" duration="832000" />
       <workItem from="1660376898012" duration="1159000" />
       <workItem from="1660366326952" duration="6545000" />
+      <workItem from="1660443720947" duration="1396000" />
     </task>
     <task id="LOCAL-00001" summary="Chisom's sol">
       <created>1660145450309</created>
