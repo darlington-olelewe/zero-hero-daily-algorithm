@@ -1,6 +1,8 @@
 package collectionManipulation;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 /**
  * DESCRIPTION:
@@ -21,7 +23,9 @@ public class FindTheParityOutlier {
 
     public static void main(String[] args) {
         System.out.println(find(new int[]{2, 4, 0, 100, 4, 11, 2602, 36})); //11
+        System.out.println(find2(new int[]{2, 4, 0, 100, 4, 11, 2602, 36})); //11
         System.out.println(find(new int[]{160, 3, 1719, 19, 11, 13, -21})); //106
+        System.out.println(find2(new int[]{160, 3, 1719, 19, 11, 13, -21})); //106
     }
 
     static int find(int[] integers){
@@ -54,6 +58,20 @@ public class FindTheParityOutlier {
 
        return choices.get((Boolean)true) > choices.get((Boolean)false) ?
                true : false;
+    }
+
+    static int find2(int[] integers){
+        List<Integer> odd = new ArrayList();
+        List<Integer> even = new ArrayList();
+
+        for(int i =0; i<integers.length; i++){
+            if(integers[i]%2 == 0){
+                even.add(integers[i]);
+            }else{
+                odd.add(integers[i]);
+            }
+        }
+        return odd.size()==1?odd.get(0):even.get(0);
     }
 }
 

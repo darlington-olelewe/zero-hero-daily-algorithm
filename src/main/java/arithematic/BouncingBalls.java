@@ -28,7 +28,9 @@ package arithematic;
 
 public class BouncingBalls {
     public static void main(String[] args) {
+
         System.out.println(bouncingBall(3.0,0.65,1.5));
+        System.out.println(bouncingBall2(3.0,0.65,1.5));
     }
     public static int bouncingBall(double h, double bounce, double window) {
         // your code
@@ -42,5 +44,20 @@ public class BouncingBalls {
         }
         return count;
     }
+
+    public static int bouncingBall2(double h, double bounce, double window) {
+        // your code
+        if (h <= 0 || bounce <= 0 || bounce >= 1 || window >= h) {
+            return -1;
+        }
+        int count = 1;
+        while(h > window) {
+            h = h * bounce;
+            if(h > window){
+               count = count+2;
+            }
+        }
+            return count;
+        }
 
 }
