@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithematic/YouAreASquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithematic/YouAreASquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stringManipulation/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.YouAreASquare">
+  <component name="RunManager" selected="Application.ValidParentheses">
     <configuration name="BouncingBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithematic.BouncingBalls" />
       <module name="zero-hero-daily-algorithm" />
@@ -129,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.YouAreASquare" />
         <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.YouAreASquare" />
         <item itemvalue="Application.SplitStrings" />
         <item itemvalue="Application.BouncingBalls" />
         <item itemvalue="Application.FindTheParityOutlier" />

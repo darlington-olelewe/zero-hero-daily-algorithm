@@ -35,4 +35,9 @@ public class YouAreASquare {
         double x = Math.sqrt(n)%1;
        return x == (int)x;
     }
+
+    public static boolean isSquare2(int n) {
+        double x = Math.sqrt(n);
+        return x == (int)x;
+    }
 }
