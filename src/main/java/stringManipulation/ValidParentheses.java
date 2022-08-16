@@ -1,5 +1,7 @@
 package stringManipulation;
 
+import java.util.Stack;
+
 public class ValidParentheses {
 
     //Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid.
@@ -27,6 +29,19 @@ public class ValidParentheses {
         System.out.println(validParentheses2("adasdasfa")); //true
         System.out.println(validParentheses("ZO))))")); //false
         System.out.println(validParentheses("7)(>A()zj|AN))(<U8l)")); //false
+
+
+        System.out.println("\n\n Second Section \n\n");
+
+        System.out.println(validParenthesis("()")); //true
+        System.out.println(validParenthesis("())")); //false
+        System.out.println(validParenthesis("())")); //false
+        System.out.println(validParenthesis("32423(sgsdg)")); //true
+        System.out.println(validParenthesis("(dsgdsg))2432")); //false
+        System.out.println(validParenthesis("adasdasfa")); //true
+        System.out.println(validParenthesis("adasdasfa")); //true
+        System.out.println(validParenthesis("ZO))))")); //false
+        System.out.println(validParenthesis("7)(>A()zj|AN))(<U8l)")); //false
 
     }
 
@@ -63,6 +78,33 @@ public class ValidParentheses {
             }
         }
         return count == 0;
+    }
+
+
+    public static boolean validParenthesis(String parens){
+        char[] charSequence = parens.toCharArray();
+        Stack<Character> charList = new Stack<>();
+        getBrackets(charList,charSequence);
+        return charList.size() == 0;
+    }
+
+    static void getBrackets(Stack<Character> charList, char[] chars){
+        for(char e: chars){
+            if(isBracket(e)){
+
+                if(charList.isEmpty()){
+                    charList.add(e);
+                }else if(charList.peek() == '(' && e == ')'){
+                    charList.pop();
+                }else{
+                    charList.add(e);
+                }
+            }
+        }
+    }
+    public static boolean isBracket(char c){
+        if(c == '(' || c == ')') return true;
+        return false;
     }
 
 
