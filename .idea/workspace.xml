@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/SplitStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,26 +61,13 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SplitStrings">
+  <component name="RunManager" selected="Application.YouAreASquare">
     <configuration name="BouncingBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithematic.BouncingBalls" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arithematic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTheNextPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiplesAndFactors.FindTheNextPerfectSquare" />
-      <module name="zero-hero-daily-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multiplesAndFactors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakeATenMinutesWalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionManipulation.TakeATenMinutesWalk" />
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringManipulation.ValidParentheses" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectionManipulation.*" />
+          <option name="PATTERN" value="stringManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YouAreASquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithematic.YouAreASquare" />
+      <module name="zero-hero-daily-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithematic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YouAreASquare" />
+        <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.SplitStrings" />
         <item itemvalue="Application.BouncingBalls" />
         <item itemvalue="Application.FindTheParityOutlier" />
-        <item itemvalue="Application.TakeATenMinutesWalk" />
-        <item itemvalue="Application.FindTheNextPerfectSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +151,7 @@
       <workItem from="1660376898012" duration="1159000" />
       <workItem from="1660366326952" duration="6545000" />
       <workItem from="1660443720947" duration="1396000" />
+      <workItem from="1660624300713" duration="3798000" />
     </task>
     <task id="LOCAL-00001" summary="Chisom's sol">
       <created>1660145450309</created>
