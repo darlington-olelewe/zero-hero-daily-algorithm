@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithematic/PrimesInNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithematic/YouAreASquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithematic/YouAreASquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringManipulation/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringManipulation/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidParentheses">
+  <component name="RunManager" selected="Application.PrimesInNumbers">
     <configuration name="BouncingBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithematic.BouncingBalls" />
       <module name="zero-hero-daily-algorithm" />
@@ -76,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheParityOutlier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionManipulation.FindTheParityOutlier" />
+    <configuration name="PrimesInNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithematic.PrimesInNumbers" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectionManipulation.*" />
+          <option name="PATTERN" value="arithematic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimesInNumbers" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.YouAreASquare" />
         <item itemvalue="Application.SplitStrings" />
         <item itemvalue="Application.BouncingBalls" />
-        <item itemvalue="Application.FindTheParityOutlier" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +152,9 @@
       <workItem from="1660366326952" duration="6545000" />
       <workItem from="1660443720947" duration="1396000" />
       <workItem from="1660624300713" duration="3798000" />
+      <workItem from="1660718252304" duration="1777000" />
+      <workItem from="1660745926888" duration="595000" />
+      <workItem from="1660769467909" duration="3589000" />
     </task>
     <task id="LOCAL-00001" summary="Chisom's sol">
       <created>1660145450309</created>
