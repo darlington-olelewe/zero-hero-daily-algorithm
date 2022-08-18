@@ -1,63 +1,33 @@
 package arithematic;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class PrimesInNumbers {
     public static void main(String[] args) {
 
-        System.out.println(factors(7775460));
+        System.out.println(factors(7919));
     }
     public static String factors(int n){
 
-        List<Integer> facts = new ArrayList<>();
-        List<Integer> primes = new ArrayList<>();
+        StringBuilder sb = new StringBuilder();
+        int curr = n;
+        for(int i= 2; i <= curr; i++ ){
+        int mulitiples = 0;
+                while(curr % i == 0){
+                    ++mulitiples;
 
-        for(int i= 1; i <= n; i++ ){
-            if(n%i == 0){
-                facts.add(i);
-                if(isPrime(i)){
-                    primes.add(i);
+                    curr = curr / i;
                 }
+
+            if(mulitiples > 1){
+                sb.append("(").append(i).append("**").append(mulitiples).append(")");
+            }else if(mulitiples == 1){
+                sb.append("(").append(i).append(")");
             }
-        }
-
-        String result = "";
-
-
-        for(int i = primes.size() - 1; i >= 0; i-- ){
-
-            int count = 0;
-
-            while(n % primes.get(i) == 0){
-                n = n / primes.get(i);
-                count++;
-            }
-
-            if(count > 1){
-                result = "(" +primes.get(i)+"**"+count+")" + result;
-            }else{
-                result = "("+primes.get(i)+")" + result;
-            }
-
 
         }
 
-
-
-        return result;
+        return sb.toString();
     }
 
-    public static boolean isPrime(Integer nn){
-        if(nn == 1) return false;
-        for(int i = 2; i <= Math.sqrt(nn); i++){
-            if(nn % i == 0){
-                return false;
-            }
-        }
-        return true;
-    }
+
 
 }

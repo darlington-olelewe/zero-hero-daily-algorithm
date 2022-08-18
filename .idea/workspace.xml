@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithematic/PrimesInNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +153,8 @@
       <workItem from="1660624300713" duration="3798000" />
       <workItem from="1660718252304" duration="1777000" />
       <workItem from="1660745926888" duration="595000" />
-      <workItem from="1660769467909" duration="3589000" />
+      <workItem from="1660769467909" duration="6273000" />
+      <workItem from="1660815726500" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="Chisom's sol">
       <created>1660145450309</created>
