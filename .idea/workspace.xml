@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/RichestCustomerWealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/RunningSumOfOneDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/StepsToReduceNumberToZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +65,13 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimesInNumbers">
-    <configuration name="BouncingBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithematic.BouncingBalls" />
+  <component name="RunManager" selected="Application.StepsToReduceNumberToZero">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.AddTwoNumbers" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithematic.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimesInNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithematic.PrimesInNumbers" />
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.FizzBuzz" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithematic.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringManipulation.SplitStrings" />
+    <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RichestCustomerWealth" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringManipulation.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringManipulation.ValidParentheses" />
+    <configuration name="RunningSumOfOneDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RunningSumOfOneDArray" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringManipulation.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YouAreASquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithematic.YouAreASquare" />
+    <configuration name="StepsToReduceNumberToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.StepsToReduceNumberToZero" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithematic.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimesInNumbers" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.YouAreASquare" />
-        <item itemvalue="Application.SplitStrings" />
-        <item itemvalue="Application.BouncingBalls" />
+        <item itemvalue="Application.StepsToReduceNumberToZero" />
+        <item itemvalue="Application.FizzBuzz" />
+        <item itemvalue="Application.RichestCustomerWealth" />
+        <item itemvalue="Application.RunningSumOfOneDArray" />
+        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
