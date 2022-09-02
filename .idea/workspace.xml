@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="Chisom's sol">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FindPivotIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/IsomorphicString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +62,9 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StepsToReduceNumberToZero">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.AddTwoNumbers" />
+  <component name="RunManager" selected="Application.IsSubsequence">
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.FizzBuzz" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.FizzBuzz" />
+    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.IsSubsequence" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsSubsequence" />
         <item itemvalue="Application.StepsToReduceNumberToZero" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.RichestCustomerWealth" />
         <item itemvalue="Application.RunningSumOfOneDArray" />
-        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +157,7 @@
       <workItem from="1660745926888" duration="595000" />
       <workItem from="1660769467909" duration="6273000" />
       <workItem from="1660815726500" duration="2484000" />
+      <workItem from="1662106273580" duration="2323000" />
     </task>
     <task id="LOCAL-00001" summary="Chisom's sol">
       <created>1660145450309</created>
