@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02870ba-7c0b-4f2e-97d4-0f3c18431206" name="Changes" comment="Chisom's sol">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FirstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/MoveZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/RotateArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       <recent name="stringManipulation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsSubsequence">
+  <component name="RunManager" selected="Application.MoveZeros">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.FizzBuzz" />
       <module name="zero-hero-daily-algorithm" />
@@ -88,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.RichestCustomerWealth" />
+    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MoveZeros" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunningSumOfOneDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.RunningSumOfOneDArray" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RotateArray" />
       <module name="zero-hero-daily-algorithm" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZeros" />
+        <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.IsSubsequence" />
         <item itemvalue="Application.StepsToReduceNumberToZero" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.RichestCustomerWealth" />
-        <item itemvalue="Application.RunningSumOfOneDArray" />
       </list>
     </recent_temporary>
   </component>
